@@ -30,6 +30,10 @@
     "typescript": "^5"
   },
   "allowScripts": {
-    "sharp": true
+    "sharp": true,
+    "sharp@0.33.5": true
+  },
+  "overrides": {
+    "sharp": "$sharp"
   }
 }
